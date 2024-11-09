@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <style>
+        .container {
+            width: 80%;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+
+    <script src="popup.js"></script>
+</head>
+<body>
+    <h1>Contact :</h1>
+    <div class="container">
+        <form onsubmit="displayFormContents()">
+            <label for="firstname">Firstname:</label><br>
+            <input type="text" id="firstname" required>
+            <br>
+
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+</body>
+</html>
